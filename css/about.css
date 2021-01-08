@@ -1,0 +1,99 @@
+/*About style*/
+#about{
+	background:#777;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+#about h1{
+    font-family: 'Unice One', cursive;
+    font-weight: 400;
+    font-size: 52px;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
+#about h2{
+    font-family: 'Unice One', cursive;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 32px;
+    color: white;
+}
+#about h3{
+    font-family: 'Unice One', cursive;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 22px;
+    line-height: 32px;
+    padding-bottom: 5px;
+}
+#about p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+}
+#about hr{
+    background-color: #999;
+    width: 100px;
+}
+#about .about-thumb{
+    margin-bottom: 32px;
+    position: relative;
+    text-align: center;
+    width:250px;
+}
+
+#about .about-overlay{
+    background-color:white;
+    border-radius: 2px;
+    position: absolute;
+    width:250px;
+    overflow: hidden;
+    height: 100px;
+    bottom: 0px;
+    transition: height 450ms;
+}
+#about .about-overlay h3{
+    padding-bottom: 0px;
+}
+#about .about-thumb:hover .about-overlay{
+    height: 100%;
+    background-color:#539EA6;
+    color: black;
+    padding-top: 30%;
+    opacity: 0.9;
+}
+#about .about-thumb:hover h4{
+    color: #1dc9e3;
+}
+.about-thumb .social-icon{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.about-thumb .social-icon li{
+    display: inline-block;
+    list-style: none;
+}
+.about-thumb .social-icon li img{
+    color: white;
+    border-radius:50%;
+    font-size: 16px;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+    top: 0;
+    margin: 10px 4px 0px 4px;
+    transition: all 0.4s ease-in-out;
+}
+.about-thumb .social-icon li img:hover{
+    background:white;
+    color: white;
+    top: -5px;
+}
